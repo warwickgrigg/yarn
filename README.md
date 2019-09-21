@@ -1,2 +1,1 @@
-# yarn
-Created with CodeSandbox
+# stripe-checkout

@@ -1,0 +1,439 @@
+{
+  "lines": {
+    "Rescue": {
+      "name": "Rescue",
+      "image": "./baseline_error_outline_black_48dp.png",
+      "summary": [
+        "For a current emergency or business critical incident ocurring now, ",
+        "response times within 1 hour, 4 hours etc"
+      ],
+      "information": [
+        ["We commence our service on completion of your purchase."],
+        [
+          "You identify to us the nature of your technical difficulty, ",
+          "the circumstances leading up to it, and your desired outcome. ",
+          "Our response time is measured from our receipt of this information. ",
+          "We endeavour to resolve your difficulty and to achieve your desired outcome ",
+          "within the key features and schedule of your purchased product. ",
+          "You must provide us access to your system for the duration of our involvement. "
+        ],
+        [
+          "For the fastest possible response and resolution, our initial response is ",
+          "via remote access, phone and messaging. ",
+          "Subsequently we will travel to your site to continue the service, ",
+          "if it is necessary and if there is sufficient time remaining."
+        ],
+        [
+          "Definition: Minutes, Hours, Days = within business hours, 9-5 Mon-Fri exc public holidays"
+        ]
+      ],
+      "products": ["Emergency", "Urgent", "Critical", "Important"]
+    },
+    "HelpDesk": {
+      "name": "Help desk",
+      "image": "./baseline_help_outline_black_48dp.png",
+      "summary": [
+        "Ongoing access to our help desk for day to day IT difficulties; ",
+        "for you and/or your colleagues, ",
+        "with escalation to level 2 & 3 IT experts"
+      ],
+      "information": [
+        ["We commence our service on completion of your purchase."],
+        [
+          "You identify to our help desk the nature of your technical difficulty, ",
+          "the circumstances leading up to it, and your desired outcome. ",
+          "We endeavour to resolve your difficulty and to achieve your desired outcome ",
+          "within the key features and schedule of your purchased product. ",
+          "You must provide us access to your system for the duration of our involvement. "
+        ],
+        [
+          "For the fastest possible response and resolution, our initial response is ",
+          "via remote access, phone and messaging. ",
+          "Subsequently we may travel to your site to continue the service. "
+        ],
+        [
+          "This is a reactive service, not proactive; see also proactive services.",
+          "This service is not appropriate for emergencies and other time critical responses; ",
+          "see our emergency response services"
+        ],
+        [
+          "Definitions: Minutes, Hours, Days = within business hours, 9-5 Mon-Fri exc public holidays"
+        ]
+      ],
+      "products": [
+        "TimeBankSubscription",
+        "TimeBank",
+        "ProactiveCore",
+        "ProactiveEnterprise"
+      ]
+    },
+    "Proactive": {
+      "name": "Proactive",
+      "image": "./baseline_all_inclusive_black_48dp.png",
+      "summary": [
+        "Monitoring, maintenance and help desk. Detect and resolve technical issues ",
+        "before they impact the business, response time guarantees, ",
+        "manage system updates/patches, security, anti-malware, backups, ",
+        "24/7 system checks etc"
+      ],
+      "products": ["ProactiveCore", "ProactiveEnterprise"]
+    },
+    "Cloud": {
+      "name": "Cloud",
+      "image": "./outline_cloud_black_48dp.png",
+      "summary": [
+        "Business email, productivity suites, and user accounts ",
+        "from Microsoft (Office 365 etc) and Google (G Suite), ",
+        "with options for telanova's setup, migration and support"
+      ],
+      "products": [
+        "GSuiteBasic",
+        "GSuiteBusiness",
+        "GSuiteEnterprise",
+        "Office365BusinessPremiumY",
+        "Office365BusinessPremiumM",
+        "CloudSetup"
+      ]
+    },
+    "Projects": {
+      "name": "Projects",
+      "image": "./outline_trending_up_black_48dp.png",
+      "summary": [
+        "A specific project for your organisation; upgrading your system, ",
+        "introducing a line of business application, moving to the cloud, ",
+        "new premises, expanding, downsizing, compliance etc. ",
+        "Project management, advice, and/or strategic consultancy"
+      ],
+      "products": ["SpecificProject", "AdviceAndConsultancy"]
+    }
+  },
+  "items": {
+    "Emergency": {
+      "key": "Emergency",
+      "name": "Emergency",
+      "id": "sku_FqWF9KvBAgwTMb",
+      "testId": "sku_FhUwCcTsWjUsks",
+      "available": 0,
+      "unit": "incident",
+      "unitPrice": 99500,
+      "multiples": 0,
+      "features": [
+        "Response within 1 hour",
+        "Onsite within 4 hours",
+        "Phone hotline",
+        "Up to 4 hours of work"
+      ],
+      "line": "Rescue"
+    },
+    "Urgent": {
+      "key": "Urgent",
+      "name": "Urgent",
+      "id": "sku_FqWFgY6fyvLmts",
+      "testId": "sku_FhUx5luoeNJ0Eg",
+      "available": 0,
+      "unit": "incident",
+      "unitPrice": 79500,
+      "multiples": 0,
+      "features": [
+        "Response within 4 hours",
+        "Onsite within 8 hours",
+        "Phone hotline",
+        "Up to 4 hours of work"
+      ],
+      "line": "Rescue"
+    },
+    "Critical": {
+      "key": "Critical",
+      "name": "Critical",
+      "id": "sku_FqWF1GdsE8cf2M",
+      "testId": "sku_FhUydU26GcZzRK",
+      "available": 1,
+      "unit": "incident",
+      "unitPrice": 59500,
+      "multiples": 0,
+      "features": [
+        "Response within 1 day",
+        "Onsite within 2 days",
+        "Priority messaging",
+        "Up to 4 hours of work"
+      ],
+      "line": "Rescue"
+    },
+    "Important": {
+      "key": "Important",
+      "name": "Important",
+      "id": "sku_FqWFUMV01PDhH9",
+      "testId": "sku_FhUzMCdEyRAlAa",
+      "available": 1,
+      "unitPrice": 34500,
+      "unit": "incident",
+      "multiples": 0,
+      "features": [
+        "Response within 1 week",
+        "Onsite within 2 weeks",
+        "Direct messaging",
+        "Up to 4 hours of work"
+      ],
+      "line": "Rescue"
+    },
+    "TimeBankSubscription": {
+      "key": "TimeBankSubscription",
+      "name": "Time Bank Subscription",
+      "id": "plan_FqWFsefHMuOzQd",
+      "testId": "plan_FhUIyb8LK9FY4j",
+      "available": 1,
+      "unit": "30 minutes / month",
+      "unitPrice": 4000,
+      "multiples": 1,
+      "features": [
+        "For smaller organisations with basic IT",
+        "Subscribe in units of 30 minutes per month",
+        "Draw down as few minutes as needed for each call",
+        "Helpdesk access via phone / email / web",
+        "Level 2 / 3 access via helpdesk",
+        "Minutes rollover for 12 months from purchase"
+      ],
+      "line": "HelpDesk"
+    },
+    "TimeBank": {
+      "key": "TimeBank",
+      "name": "Time Bank",
+      "id": "sku_FqWFZnU3rpS3B4",
+      "testId": "sku_FhUKwJVDBL7cLR",
+      "available": 1,
+      "unit": "240 minutes",
+      "unitPrice": 35000,
+      "multiples": 1,
+      "features": [
+        "For smaller organisations with basic IT",
+        "Purchase in blocks of 4 hrs (240 mins)",
+        "Draw down as few minutes as needed for each call",
+        "Helpdesk access via phone / email / web",
+        "Level 2 / 3 access via helpdesk",
+        "Valid for 12 months from purchase"
+      ],
+      "line": "HelpDesk"
+    },
+    "ProactiveCore": {
+      "key": "ProactiveCore",
+      "name": "Proactive core",
+      "id": "ProactiveCore",
+      "testId": "ProactiveCore",
+      "available": 1,
+      "priceText": "from £19.99 + VAT",
+      "unit": "device / month",
+      "unitPrice": 0,
+      "multiples": 1,
+      "features": [
+        "For business critical IT infrastructure",
+        "Helpdesk",
+        "Proactive 24x7 system health checks etc",
+        "Proactively detect and resolve technical issues to prevent outage",
+        "Response time guarantees",
+        "Onsite response",
+        "Manage system updates and patches",
+        "Managed security, anti-malware and backups",
+        "Monthly reports"
+      ],
+      "line": "Proactive"
+    },
+    "ProactiveEnterprise": {
+      "key": "ProactiveEnterprise",
+      "name": "Proactive enterprise",
+      "id": "ProactiveEnterprise",
+      "testId": "ProactiveEnterprise",
+      "available": 1,
+      "priceText": "from £29.99 + VAT",
+      "unit": "device / month",
+      "unitPrice": 0,
+      "multiples": 1,
+      "features": [
+        "For business critical IT infrastructure",
+        "24x7 helpdesk",
+        "Proactive 24x7 system health checks etc",
+        "Proactively detect and resolve technical issues to prevent outage",
+        "Response time guarantees",
+        "Onsite response",
+        "Manage system updates and patches",
+        "Managed security, anti-malware and backups",
+        "Monthly reports"
+      ],
+      "line": "Proactive"
+    },
+    "GSuiteBasic": {
+      "key": "GSuiteBasic",
+      "name": "G Suite Basic",
+      "id": "plan_FqWFhUtItIFUzV",
+      "testId": "plan_FkmJqZ88iV7odw",
+      "available": 1,
+      "unit": "user / month",
+      "unitPrice": 460,
+      "multiples": 1,
+      "features": [
+        "Business email on your domain",
+        "Video and voice conferencing",
+        "Secure team messaging",
+        "Shared calendars",
+        "Web based docs, spreadsheets and presentations",
+        "30GB cloud storage",
+        "Service and standard support from google.com",
+        "Buy telanova's services separately"
+      ],
+      "line": "Cloud",
+      "url": "https://gsuite.google.com"
+    },
+    "GSuiteBusiness": {
+      "key": "GSuiteBusiness",
+      "name": "G Suite Business",
+      "id": "plan_FqWFcsQvDQde3i",
+      "testId": "plan_FkmLjwejUhX3kJ",
+      "available": 1,
+      "unit": "user / month",
+      "unitPrice": 920,
+      "multiples": 1,
+      "features": [
+        "Business email on your domain",
+        "Video and voice conferencing",
+        "Secure team messaging",
+        "Shared calendars",
+        "Web based docs, spreadsheets and presentations",
+        "1TB cloud storage per user (or more)",
+        "Smart search",
+        "e-Discovery, audit, archive and retention policies",
+        "Service and standard support from google.com",
+        "Buy telanova's services separately"
+      ],
+      "line": "Cloud",
+      "url": "https://gsuite.google.com"
+    },
+    "GSuiteEnterprise": {
+      "key": "GSuiteEnterprise",
+      "name": "G Suite Enterprise",
+      "id": "plan_FqWFB9d4rcjaEI",
+      "testId": "plan_FkmMcRFjD9ntpb",
+      "available": 1,
+      "unit": "user / month",
+      "unitPrice": 2000,
+      "multiples": 1,
+      "features": [
+        "Business email on your domain",
+        "Video and voice conferencing",
+        "Secure team messaging",
+        "Shared calendars",
+        "Web based docs, spreadsheets and presentations",
+        "1TB cloud storage per user (or more)",
+        "Smart search",
+        "e-Discovery, audit, archive and retention policies",
+        "Enterprise security and administration controls",
+        "Service and standard support from google.com",
+        "Buy telanova's services separately"
+      ],
+      "line": "Cloud",
+      "url": "https://gsuite.google.com"
+    },
+    "CloudSetup": {
+      "key": "CloudSetup",
+      "name": "Cloud Setup",
+      "id": "sku_FqWFBZ4Hd3ycWz",
+      "testId": "sku_FkmVHUXYBBgtVc",
+      "available": 1,
+      "minQuantity": 5,
+      "unit": "user",
+      "unitPrice": 5000,
+      "multiples": 1,
+      "features": [
+        "Setup your domain's DNS for cloud",
+        "Setup users",
+        "Set up email accounts and aliases",
+        "Migrate mailbox (one per user)",
+        "Set retention policy",
+        "Near zero downtime transfer",
+        "Minimum order of 5 (£250 + VAT)"
+      ],
+      "line": "Cloud"
+    },
+    "Office365BusinessPremiumM": {
+      "key": "Office365BusinessPremiumM",
+      "name": "Office 365 Business Premium M",
+      "id": "plan_FqWFm88vORkPJ5",
+      "testId": "plan_FlCNjsUBfY4dlm",
+      "available": 1,
+      "unit": "user / month",
+      "unitPrice": 1130,
+      "multiples": 1,
+      "features": [
+        "Monthly commitment",
+        "Business email on your domain",
+        "Microsoft Outlook, Word, Excel, Powerpoint for Windows & Mac",
+        "Microsoft Access and Publisher for Windows",
+        "File storage and sharing via OneDrive",
+        "Microsoft Teams and Sharepoint",
+        "Real time co-authoring",
+        "Web and mobile versions of Office apps"
+      ],
+      "url": "https://products.office.com/en-gb/compare-all-microsoft-office-products?activetab=tab:primaryr2",
+      "line": "Cloud"
+    },
+    "Office365BusinessPremiumY": {
+      "key": "Office365BusinessPremiumY",
+      "name": "Office 365 Business Premium Y",
+      "id": "plan_FqWFJ36dKOjvi7",
+      "testId": "plan_FlCOpeBfz5mTQK",
+      "available": 1,
+      "minQuantity": 5,
+      "unit": "user / month",
+      "unitPrice": 940,
+      "multiples": 1,
+      "features": [
+        "ANNUAL commitment",
+        "Business email on your domain",
+        "Microsoft Outlook, Word, Excel, Powerpoint for Windows & Mac",
+        "Microsoft Access and Publisher for Windows",
+        "File storage and sharing via OneDrive",
+        "Microsoft Teams and Sharepoint",
+        "Real time co-authoring",
+        "Web and mobile versions of Office apps",
+        "Minimum order quantity of 5"
+      ],
+      "url": "https://products.office.com/en-gb/compare-all-microsoft-office-products?activetab=tab:primaryr2",
+      "line": "Cloud"
+    },
+    "SpecificProject": {
+      "key": "SpecificProject",
+      "name": "Specific project",
+      "id": "SpecificProject",
+      "testId": "SpecificProject",
+      "available": 1,
+      "priceText": "from £1,000",
+      "unit": "project",
+      "unitPrice": 100000,
+      "multiples": 0,
+      "features": [
+        "A specific project for your organisation, eg:",
+        "Upgrading your system,",
+        "Introducing a new line of business application,",
+        "Moving to the cloud,",
+        "New premises,",
+        "Expanding, downsizing etc"
+      ],
+      "line": "Projects"
+    },
+    "AdviceAndConsultancy": {
+      "key": "AdviceAndConsultancy",
+      "name": "Advice and consultancy",
+      "id": "AdviceAndConsultancy",
+      "testId": "AdviceAndConsultancy",
+      "available": 1,
+      "priceText": "from £200 + VAT",
+      "unit": "month",
+      "unitPrice": 20000,
+      "multiples": 0,
+      "features": [
+        "Straightforward day to day advice",
+        "Strategic consultancy",
+        "Virtual CTO / CIO role"
+      ],
+      "line": "Projects"
+    }
+  }
+}

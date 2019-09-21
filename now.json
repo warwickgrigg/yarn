@@ -1,0 +1,41 @@
+{
+  "name": "telanova-buy",
+  "version": 2,
+  "env": {
+    "STRIPE_SK_TLA_TEST": "@stripe_sk_test",
+    "STRIPE_SK_TLA_LIVE": "@stripe_sk_test",
+    "RECAPTCHA_SECRET_KEY": "@recaptcha_secret_key",
+    "AWSID": "@awsid",
+    "AWSKEY": "@awskey",
+    "TEST": "@test"
+  },
+  "build": {
+    "env": {
+      "STRIPE_PK_TEST": "@stripe_pk_test"
+    }
+  },
+  "builds": [
+    {
+      "src": "api/enquiry.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "public/*",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/enquiry",
+      "dest": "api/enquiry.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "public/$1"
+    }
+  ],
+  "regions": ["lhr1"],
+  "github": {
+    "enabled": false
+  }
+}
