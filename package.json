@@ -23,7 +23,7 @@
     "domz": "1.0.0",
     "htm": "2.2.1",
     "hyperapp": "1.2.10",
-    "node-fetch": "2.6.0",
+    "node-fetch": "2.6.1",
     "stripe": "7.6.0"
   },
   "devDependencies": {
